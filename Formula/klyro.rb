@@ -1,44 +1,44 @@
 class Klyro < Formula
   desc "Klyro command-line interface"
   homepage "https://klyro.security"
-  version "1.7.0"
+  version "1.8.0"
 
   on_macos do
     on_arm do
-      url "https://get.klyro.security/cli/v1.7.0/klyro_v1.7.0_darwin_arm64"
-      sha256 "152d9a6fe9f7920962ddf447e75d5661bf5c1697878c32db0057b036730d1454"
+      url "https://get.klyro.security/cli/v1.8.0/klyro_v1.8.0_darwin_arm64"
+      sha256 "611b5ae0a6e3de09c76ede0073cf79c58875008fd6c73f9764d08c08729192fe"
 
       def install
-        bin.install "klyro_v1.7.0_darwin_arm64" => "klyro"
+        bin.install "klyro_v1.8.0_darwin_arm64" => "klyro"
       end
     end
 
     on_intel do
-      url "https://get.klyro.security/cli/v1.7.0/klyro_v1.7.0_darwin_amd64"
-      sha256 "3d4dc7e16f23f8ea1a523db245dc5f9f1b4e044f6dbf8bb1c8e8c1e2828dafc2"
+      url "https://get.klyro.security/cli/v1.8.0/klyro_v1.8.0_darwin_amd64"
+      sha256 "e0f73e5ae5e35e2b1fd1635bcda6f19281c88202551c8ee94d023ad273c2b5eb"
 
       def install
-        bin.install "klyro_v1.7.0_darwin_amd64" => "klyro"
+        bin.install "klyro_v1.8.0_darwin_amd64" => "klyro"
       end
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.klyro.security/cli/v1.7.0/klyro_v1.7.0_linux_arm64"
-      sha256 "b57aba22d47a10b9cc39c3f3381b807eb03b9813751506e54af939e7735a7599"
+      url "https://get.klyro.security/cli/v1.8.0/klyro_v1.8.0_linux_arm64"
+      sha256 "22b477fc2332d90a824653b7fa49560b67241e1a24497123577206ba79c80240"
 
       def install
-        bin.install "klyro_v1.7.0_linux_arm64" => "klyro"
+        bin.install "klyro_v1.8.0_linux_arm64" => "klyro"
       end
     end
 
     on_intel do
-      url "https://get.klyro.security/cli/v1.7.0/klyro_v1.7.0_linux_amd64"
-      sha256 "a57118852d24a30b9066e464c69dce601e65c30e5f7054cf6e12ca31d51b05e8"
+      url "https://get.klyro.security/cli/v1.8.0/klyro_v1.8.0_linux_amd64"
+      sha256 "2bedf25bf329df2845f1f9553eae8a53a89613536247b166434edb58c503b3ca"
 
       def install
-        bin.install "klyro_v1.7.0_linux_amd64" => "klyro"
+        bin.install "klyro_v1.8.0_linux_amd64" => "klyro"
       end
     end
   end
